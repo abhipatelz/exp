@@ -1,0 +1,14 @@
+[project]
+name = "opengxp"
+version = "0.1.0"
+description = "Open-source GxP suite: LIMS, QMS, DMS, MES and CSV on one Part 11 kernel"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = []
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["opengxp"]
